@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+button, input, select {
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.color-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.color-box {
+    padding-bottom: 100%; /*ezzel lesz ugyanolyan magas mint széles*/
+    border: 1px solid grey;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.display-box {
+    border: 1px solid grey;
+    margin-right: -1px;
+    text-align: center;
+}
